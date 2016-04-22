@@ -1,0 +1,12 @@
+<a class="back" href="#/outbox">Back</a>
+
+<div class="email-view">
+  <h3 class="subject"> <b> Subject: </b> 
+    <i>{{ email.subject }}</i> </h3>
+  <span class="from">  From:  
+    <i> {{ email.from }} </i> </span>
+  <span class="date"> Date: 
+    <i> {{ email.datetime | date }} </i> </span>
+  <p class="message"> <b> Message: </b> 
+    <i> {{ email.message }} </i> </p>
+</div>
